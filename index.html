@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product List with APIs</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/style/global.css">
+    <link rel="stylesheet" href="./src/style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-1">
+            <img src="./src/assets/portfolio-logo.png" alt="Logo">
+            <h1>Rafah_Desapega</h1>
+        </div>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Roupas</a>
+            <a href="">Acessório</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Product List with APIs</h1>
+        <div class="search-main">
+            <input type="search" id="filter-input" placeholder="Digite um nome ou categoria">
+            <button>
+                <img class="search-img"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAwRJREFUWEftl1moT1EUxn+3RJEHEiFkyPBsehDJUBTJlCGR6cHNm0QSD5IhT8qY6cFQhiKSlMylDHkhQ0RJyphQZNqf1tG2nXv2Pv9/3ftX1ts5e69vf2etvdb6Th01ZnU1xod/mlBbYAowAegFdLLoPgceACeAY8DbaqKeEqGuwEpgDtA8cthnYDewDnhWCbEYoakuGvsTiIRnfwKmAafKkioitAxYHwBeBY4Dl4H7ttYXGAZMBgYF+xcB28uQaojQDOCgB3QPmAtci4CPcXdrp0tbF9v3AxjniJ5OJZVHqCdwx92DFgZy20VkJPAmEbQjcMF9UG/b/x4Q5qsU/zxCqpRJ5vwIGAy8TgHz9nQGbgId7N02oD4FIyTUD7jrOQ50Ib+RApSzR6k6ae+/AopcNEohIZX3GgPR5Z1YIZnM7bqrtAH2MA/YG8MLCV0BhpjTTOBQDCCyvgTYZHsOWysodAkJPXFf0c08VCkVNTfvxP5eym+5FOq5FKGPQEvzUJV9iQFE1tt41fkO0HMpQh+AVubRGtBzNSYMlb3sJdA+Bham7KENTvn1saEZwyha96v2outPw2NgIaFzwAhzWmCDMoZRtK7RsdU2JPWikNBSd4c2GsAZYGw1bIDzXlQWA1tieCEh6RylLbOhgFpBJTYaOGuOKhZhv4gB5Y2OIybE5PvUGlu0wwYHSbypKWYibjmwIUZG63mEetj4qGa4KlUqCtljQJc7qYWkyg/NNynG2FyT/JD+yZqrCKlQ9F7zLGpFAm0FsDZAuGQCTfdKOlr++nqVswRaQ534KDAd+BZjFJOwisouoFkMKFiX0Jf8GOW91yyT8PtehBUjJN/uDmQVMCuBmNKi0l5tHVqqU5HJ7IC7U7OLSKUQysDa2bQeD+jiq4JEQJdWQ1liTvLVbxvC32ckMhz9lSx0pCVv/7IyhEpm7ff2PFJ7gPlNRShrLzssMhmP3FHSGBHyA6GUKl0y/Uyqkv+wxiakwzeb8MtmZpMTKryLTRGh/4QqbQ+//GouZT8BH3WCJWJo578AAAAASUVORK5CYII=" />
+            </button>
+        </div>
+    </main>
+
+    <div id="product-list"></div>
+    <script src="/src/scripts/script.js"></script>
+</body>
+
+</html>
